@@ -1,0 +1,40 @@
+{
+ "run_id": "20261014-092819_W4_lgbm_gfs_zoneload_blend",
+ "experiment": "W4_lgbm_gfs_zoneload_blend",
+ "phase": "validation",
+ "hypothesis": "W3 trained on GFS but predicting with the GFS+ECMWF blend where ECMWF exists (2024-02+) beats W3, as blending did in the load project.",
+ "config": {
+  "weather": "train GFS, predict GFS+ECMWF blend",
+  "features": [
+   "wf_t",
+   "wf_tlag1",
+   "wf_tlag2",
+   "wf_tlag3",
+   "wf_tlag6",
+   "wf_dmax",
+   "wf_dmin",
+   "wf_dmean",
+   "wo2_dmean",
+   "zl2_rel",
+   "zl3_rel",
+   "zl2_wk"
+  ]
+ },
+ "status": "ok",
+ "git": "f80e089",
+ "seconds": 500.6,
+ "metrics": {
+  "n": 842112,
+  "wape": 7.83054484047012,
+  "bias_pct": 0.09525283430639313,
+  "portfolio_mape": 5.547736677226207,
+  "portfolio_mae_mwh": 1162.278730883738,
+  "wape_BUSHILF": 2.399538813813045,
+  "wape_BUSLOLF": 6.304215266463938,
+  "wape_BUSMEDLF": 3.986706254350869,
+  "wape_BUSNODEM": 4.785606384377314,
+  "wape_RESHIWR": 11.251198562965667,
+  "wape_RESLOWR": 9.097492135000499,
+  "wape_extreme_days": 12.394045059439925
+ }
+}

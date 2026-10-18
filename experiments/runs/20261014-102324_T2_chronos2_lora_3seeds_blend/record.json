@@ -1,0 +1,29 @@
+{
+ "run_id": "20261014-102324_T2_chronos2_lora_3seeds_blend",
+ "experiment": "T2_chronos2_lora_3seeds_blend",
+ "phase": "validation",
+ "hypothesis": "LoRA fine-tuning on the 48 series per fold (1000 steps, lr 1e-5, eval mode, 3-seed average; settings from the load project) beats T1 and W4.",
+ "config": {
+  "finetune": "lora",
+  "steps": 1000,
+  "lr": 1e-05,
+  "seeds": 3
+ },
+ "status": "ok",
+ "git": "0709bd9",
+ "seconds": 13036.0,
+ "metrics": {
+  "n": 842112,
+  "wape": 6.1980644947300005,
+  "bias_pct": -0.10865609187413114,
+  "portfolio_mape": 4.185938515787662,
+  "portfolio_mae_mwh": 858.3317505724921,
+  "wape_BUSHILF": 1.7789507400308169,
+  "wape_BUSLOLF": 5.4696445371988975,
+  "wape_BUSMEDLF": 3.111419052507563,
+  "wape_BUSNODEM": 4.029970034833067,
+  "wape_RESHIWR": 8.945024954281713,
+  "wape_RESLOWR": 7.002585287175214,
+  "wape_extreme_days": 11.065678615448874
+ }
+}

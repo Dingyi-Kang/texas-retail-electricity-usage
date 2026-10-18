@@ -1,0 +1,31 @@
+{
+ "run_id": "20261014-090735_W2_ridge_hinge_gfs",
+ "experiment": "W2_ridge_hinge_gfs",
+ "phase": "validation",
+ "hypothesis": "Per series x hour Ridge with hinge terms of GFS hourly and daily-max zone temperature beats B1 and is competitive with W1 (GEFCom-vanilla-style regression).",
+ "config": {
+  "weather": "GFS",
+  "hinge_cols": [
+   "wf_t",
+   "wf_dmax",
+   "wf_tlag3"
+  ]
+ },
+ "status": "ok",
+ "git": "62dc3e0",
+ "seconds": 391.1,
+ "metrics": {
+  "n": 842112,
+  "wape": 11.356503402101218,
+  "bias_pct": 2.131950502379453,
+  "portfolio_mape": 9.247080441033978,
+  "portfolio_mae_mwh": 1935.7492556768764,
+  "wape_BUSHILF": 3.5997331834744215,
+  "wape_BUSLOLF": 8.586636159192578,
+  "wape_BUSMEDLF": 5.7014408747712775,
+  "wape_BUSNODEM": 5.499465421524905,
+  "wape_RESHIWR": 16.123895061748666,
+  "wape_RESLOWR": 13.697287319798912,
+  "wape_extreme_days": 14.777087888788373
+ }
+}

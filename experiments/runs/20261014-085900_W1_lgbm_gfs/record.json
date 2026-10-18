@@ -1,0 +1,37 @@
+{
+ "run_id": "20261014-085900_W1_lgbm_gfs",
+ "experiment": "W1_lgbm_gfs",
+ "phase": "validation",
+ "hypothesis": "Adding issue-safe GFS zone temperature (+1-6 h lags, day max/min/mean) and observed T-2 temperature to B2 cuts weighted WAPE substantially (profiles are weather-driven); weather-free fallback in the GFS gap.",
+ "config": {
+  "weather": "GFS",
+  "features": [
+   "wf_t",
+   "wf_tlag1",
+   "wf_tlag2",
+   "wf_tlag3",
+   "wf_tlag6",
+   "wf_dmax",
+   "wf_dmin",
+   "wf_dmean",
+   "wo2_dmean"
+  ]
+ },
+ "status": "ok",
+ "git": "0513294-dirty",
+ "seconds": 514.3,
+ "metrics": {
+  "n": 842112,
+  "wape": 8.793628405355435,
+  "bias_pct": 1.2769822497780847,
+  "portfolio_mape": 6.700139689852229,
+  "portfolio_mae_mwh": 1401.99679518289,
+  "wape_BUSHILF": 2.6713919259621863,
+  "wape_BUSLOLF": 7.018243944439757,
+  "wape_BUSMEDLF": 4.462839415833435,
+  "wape_BUSNODEM": 5.152295523185146,
+  "wape_RESHIWR": 12.513563125152283,
+  "wape_RESLOWR": 10.392618520247217,
+  "wape_extreme_days": 13.24009929928411
+ }
+}

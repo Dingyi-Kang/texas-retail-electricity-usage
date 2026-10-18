@@ -1,0 +1,24 @@
+{
+ "run_id": "20261014-085019_B2_lgbm_noweather",
+ "experiment": "B2_lgbm_noweather",
+ "phase": "validation",
+ "hypothesis": "Global LightGBM on lags + calendar + class/zone ids is at least as good as B1 (no weather).",
+ "config": {},
+ "status": "ok",
+ "git": "0513294",
+ "seconds": 504.8,
+ "metrics": {
+  "n": 842112,
+  "wape": 12.765577253920272,
+  "bias_pct": -1.045542722810966,
+  "portfolio_mape": 10.601174534534206,
+  "portfolio_mae_mwh": 2203.5155077968902,
+  "wape_BUSHILF": 3.5963892929145005,
+  "wape_BUSLOLF": 9.391735965285806,
+  "wape_BUSMEDLF": 6.231646370333351,
+  "wape_BUSNODEM": 6.631469710713809,
+  "wape_RESHIWR": 18.975839347544355,
+  "wape_RESLOWR": 14.898962460397195,
+  "wape_extreme_days": 21.19508862852874
+ }
+}

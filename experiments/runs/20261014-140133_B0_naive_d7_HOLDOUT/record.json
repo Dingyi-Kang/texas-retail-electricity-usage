@@ -1,0 +1,24 @@
+{
+ "run_id": "20261014-140133_B0_naive_d7_HOLDOUT",
+ "experiment": "B0_naive_d7",
+ "phase": "holdout",
+ "hypothesis": "Same hour one week back (T-7, known) is the floor every model must beat.",
+ "config": {},
+ "status": "ok",
+ "git": "68beaef",
+ "seconds": 2.2,
+ "metrics": {
+  "n": 277584,
+  "wape": 12.98024300474922,
+  "bias_pct": -0.6449859310362928,
+  "portfolio_mape": 14.309613314216293,
+  "portfolio_mae_mwh": 3081.093571348522,
+  "wape_BUSHILF": 3.9935682963405457,
+  "wape_BUSLOLF": 10.223516760968238,
+  "wape_BUSMEDLF": 6.900381357065953,
+  "wape_BUSNODEM": 7.15274965723178,
+  "wape_RESHIWR": 19.077875980647967,
+  "wape_RESLOWR": 14.380731131365692,
+  "wape_extreme_days": 11.519014833263666
+ }
+}

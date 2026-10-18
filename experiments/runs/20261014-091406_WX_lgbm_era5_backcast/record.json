@@ -1,0 +1,26 @@
+{
+ "run_id": "20261014-091406_WX_lgbm_era5_backcast",
+ "experiment": "WX_lgbm_era5_backcast",
+ "phase": "validation",
+ "hypothesis": "BACKCAST reference (not a forecast): with actual ERA5 weather at target times, LightGBM reproduces ERCOT's profile models far better than any forecast, showing the target is weather-model output.",
+ "config": {
+  "weather": "ERA5 actual (backcast)"
+ },
+ "status": "ok",
+ "git": "62dc3e0",
+ "seconds": 241.1,
+ "metrics": {
+  "n": 842112,
+  "wape": 7.583287282283754,
+  "bias_pct": 0.5380615245011297,
+  "portfolio_mape": 5.66250367251461,
+  "portfolio_mae_mwh": 1178.5932523297097,
+  "wape_BUSHILF": 2.359296633093988,
+  "wape_BUSLOLF": 6.120066780569271,
+  "wape_BUSMEDLF": 3.8270413001155745,
+  "wape_BUSNODEM": 4.590704266748482,
+  "wape_RESHIWR": 10.699102102122028,
+  "wape_RESLOWR": 9.001067173391728,
+  "wape_extreme_days": 8.263972182616575
+ }
+}

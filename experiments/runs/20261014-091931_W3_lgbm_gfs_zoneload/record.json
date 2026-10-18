@@ -1,0 +1,40 @@
+{
+ "run_id": "20261014-091931_W3_lgbm_gfs_zoneload",
+ "experiment": "W3_lgbm_gfs_zoneload",
+ "phase": "validation",
+ "hypothesis": "Daily profile residuals persist (lag-1 autocorr 0.68) but profiles are only known to T-6; actual ERCOT zone load known to T-2 (load-project A0 assumption) carries that recent anomaly, so adding zone-load anomaly features to W1 lowers weighted WAPE.",
+ "config": {
+  "weather": "GFS",
+  "features": [
+   "wf_t",
+   "wf_tlag1",
+   "wf_tlag2",
+   "wf_tlag3",
+   "wf_tlag6",
+   "wf_dmax",
+   "wf_dmin",
+   "wf_dmean",
+   "wo2_dmean",
+   "zl2_rel",
+   "zl3_rel",
+   "zl2_wk"
+  ]
+ },
+ "status": "ok",
+ "git": "351cf0a",
+ "seconds": 505.0,
+ "metrics": {
+  "n": 842112,
+  "wape": 8.155454255010111,
+  "bias_pct": 1.053569763080717,
+  "portfolio_mape": 5.971275285143659,
+  "portfolio_mae_mwh": 1244.890098787877,
+  "wape_BUSHILF": 2.51351336332391,
+  "wape_BUSLOLF": 6.5632889905344065,
+  "wape_BUSMEDLF": 4.18435996539871,
+  "wape_BUSNODEM": 4.885808320697591,
+  "wape_RESHIWR": 11.624081083656352,
+  "wape_RESLOWR": 9.556168010180663,
+  "wape_extreme_days": 12.36439191251312
+ }
+}

@@ -1,0 +1,24 @@
+{
+ "run_id": "20261014-084905_B1_ridge_series_hour",
+ "experiment": "B1_ridge_series_hour",
+ "phase": "validation",
+ "hypothesis": "Per series x hour Ridge on relative known lags + calendar beats B0 (no weather).",
+ "config": {},
+ "status": "ok",
+ "git": "0513294",
+ "seconds": 74.1,
+ "metrics": {
+  "n": 842112,
+  "wape": 13.454713875506256,
+  "bias_pct": 0.9402893349232152,
+  "portfolio_mape": 11.464878512499787,
+  "portfolio_mae_mwh": 2307.225762633592,
+  "wape_BUSHILF": 3.868547259861658,
+  "wape_BUSLOLF": 10.149358935760512,
+  "wape_BUSMEDLF": 6.484602606806927,
+  "wape_BUSNODEM": 6.885654886022494,
+  "wape_RESHIWR": 20.426387412599126,
+  "wape_RESLOWR": 15.173545971908812,
+  "wape_extreme_days": 19.616677298492583
+ }
+}

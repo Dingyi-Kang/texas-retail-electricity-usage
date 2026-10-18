@@ -1,0 +1,24 @@
+{
+ "run_id": "20261014-084900_B0_naive_d7",
+ "experiment": "B0_naive_d7",
+ "phase": "validation",
+ "hypothesis": "Same hour one week back (T-7, known) is the floor every model must beat.",
+ "config": {},
+ "status": "ok",
+ "git": "0513294",
+ "seconds": 4.7,
+ "metrics": {
+  "n": 842112,
+  "wape": 15.810073355592989,
+  "bias_pct": 0.03147855735754443,
+  "portfolio_mape": 13.309422187786096,
+  "portfolio_mae_mwh": 2694.9929826357447,
+  "wape_BUSHILF": 4.3625574949289065,
+  "wape_BUSLOLF": 12.350363118670025,
+  "wape_BUSMEDLF": 7.862947012301934,
+  "wape_BUSNODEM": 8.29184870964788,
+  "wape_RESHIWR": 23.556801464133212,
+  "wape_RESLOWR": 18.052007277613633,
+  "wape_extreme_days": 19.257784548038163
+ }
+}

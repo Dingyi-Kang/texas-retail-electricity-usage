@@ -1,0 +1,16 @@
+# Locked 2026-10-14 before the A1 holdout (2026-01..09) was opened.
+# Selection rule (PROTOCOL A1): lowest validation weighted WAPE among forecast runs; simpler model
+# if the gain over the next simpler candidate has a 95% CI including 0.
+final_candidate: T2_chronos2_lora_3seeds_blend   # validation 6.20%
+selection_evidence:
+  T2_vs_E1_avg_W4_T1: "-0.96 pp, CI [-1.20, -0.73], 8/8 folds"
+  T2_vs_W4: "-1.63 pp, CI [-1.97, -1.29], 8/8 folds"
+  E2_avg_W4_T2_vs_T2: "+0.08 pp, CI [-0.10, +0.25] -> combo not chosen (not better, more complex)"
+holdout_set:   # each run once; reported whatever the result
+  - B0_naive_d7
+  - W4_lgbm_gfs_zoneload_blend
+  - T1_chronos2_zero_blend
+  - T2_chronos2_lora_3seeds_blend
+  - E1_avg_W4_T1
+  - E2_avg_W4_T2
+reference_only: [WX_lgbm_era5_backcast]   # backcast with actual weather, not a forecast

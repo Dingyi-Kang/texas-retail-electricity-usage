@@ -1,0 +1,300 @@
+{
+ "chosen_k": {
+  "shape": 2,
+  "weather": 4,
+  "both": 6
+ },
+ "period_ari": {
+  "shape": 1.0,
+  "weather": 0.9516199893485768
+ },
+ "scores": {
+  "shape": {
+   "2": {
+    "silhouette": 0.6844063912891667,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.20687779993267214,
+    "ari_vs_tech": 0.04234557506662833,
+    "min_size": 32
+   },
+   "3": {
+    "silhouette": 0.6448553295039346,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.22486139559367904,
+    "ari_vs_tech": 0.03610329440722948,
+    "min_size": 16
+   },
+   "4": {
+    "silhouette": 0.5164251929153361,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.08984790736425961,
+    "ari_vs_tech": 0.045349784563587965,
+    "min_size": 16
+   },
+   "5": {
+    "silhouette": 0.5301886206050352,
+    "ari_seeds_min": 0.9851510997291018,
+    "ari_vs_group": 0.4410629346205349,
+    "ari_vs_tech": 0.037140477061840545,
+    "min_size": 16
+   },
+   "6": {
+    "silhouette": 0.5462553484949029,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.44527799875242713,
+    "ari_vs_tech": 0.03988023810119696,
+    "min_size": 8
+   },
+   "7": {
+    "silhouette": 0.5384935281933139,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.3552374236166404,
+    "ari_vs_tech": 0.043751361579618404,
+    "min_size": 8
+   },
+   "8": {
+    "silhouette": 0.5531842662115791,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.3222349760051816,
+    "ari_vs_tech": 0.0371474432469617,
+    "min_size": 8
+   }
+  },
+  "weather": {
+   "2": {
+    "silhouette": 0.6070533768722429,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.8221942829087701,
+    "ari_vs_tech": 0.00554591429905887,
+    "min_size": 64
+   },
+   "3": {
+    "silhouette": 0.6005464957612284,
+    "ari_seeds_min": 0.9760191063281659,
+    "ari_vs_group": 0.5757622833900603,
+    "ari_vs_tech": 0.009115635167082923,
+    "min_size": 32
+   },
+   "4": {
+    "silhouette": 0.6556219324315948,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.5110213217793008,
+    "ari_vs_tech": 0.010020916759797315,
+    "min_size": 32
+   },
+   "5": {
+    "silhouette": 0.611994413071795,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.29464683403415726,
+    "ari_vs_tech": 0.002240450472848396,
+    "min_size": 32
+   },
+   "6": {
+    "silhouette": 0.6129035408613431,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.28782092949426213,
+    "ari_vs_tech": 0.004452847907263558,
+    "min_size": 4
+   },
+   "7": {
+    "silhouette": 0.596648858928249,
+    "ari_seeds_min": 0.9855240695192524,
+    "ari_vs_group": 0.27832238521698627,
+    "ari_vs_tech": 0.00512891817549799,
+    "min_size": 4
+   },
+   "8": {
+    "silhouette": 0.5750984746593266,
+    "ari_seeds_min": 0.9872974620791404,
+    "ari_vs_group": 0.2649447109156931,
+    "ari_vs_tech": 0.006955563438860315,
+    "min_size": 4
+   }
+  },
+  "both": {
+   "2": {
+    "silhouette": 0.482805952017947,
+    "ari_seeds_min": 0.7505552191725577,
+    "ari_vs_group": 0.7559497772199423,
+    "ari_vs_tech": 0.0027068503700683508,
+    "min_size": 80
+   },
+   "3": {
+    "silhouette": 0.5471866961364722,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.8239319103087162,
+    "ari_vs_tech": 0.0033163196184054144,
+    "min_size": 16
+   },
+   "4": {
+    "silhouette": 0.5522266137737736,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.5790662228526834,
+    "ari_vs_tech": 0.006410623037038814,
+    "min_size": 16
+   },
+   "5": {
+    "silhouette": 0.5865065302232525,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.5148155546677321,
+    "ari_vs_tech": 0.007285830248074601,
+    "min_size": 16
+   },
+   "6": {
+    "silhouette": 0.6035048773068881,
+    "ari_seeds_min": 0.9814774945632322,
+    "ari_vs_group": 0.4948333393228872,
+    "ari_vs_tech": 0.029847234289024038,
+    "min_size": 16
+   },
+   "7": {
+    "silhouette": 0.627128141210751,
+    "ari_seeds_min": 0.6508641717510459,
+    "ari_vs_group": 0.49084236119825264,
+    "ari_vs_tech": 0.022517183706081675,
+    "min_size": 8
+   },
+   "8": {
+    "silhouette": 0.572311485079595,
+    "ari_seeds_min": 1.0,
+    "ari_vs_group": 0.2785884325438895,
+    "ari_vs_tech": 0.026124590616820174,
+    "min_size": 8
+   }
+  }
+ },
+ "contingency_shape": {
+  "0": {
+   "BUSHIDG": 8,
+   "BUSHILF": 8,
+   "BUSHIPV": 8,
+   "BUSHIWD": 8,
+   "BUSIDRRQ": 8,
+   "BUSLODG": 8,
+   "BUSLOLF": 8,
+   "BUSLOPV": 8,
+   "BUSLOWD": 8,
+   "BUSMEDDG": 8,
+   "BUSMEDLF": 8,
+   "BUSMEDPV": 8,
+   "BUSMEDWD": 8,
+   "BUSNODDG": 8,
+   "BUSNODEM": 8,
+   "BUSNODPV": 0,
+   "BUSNODWD": 8,
+   "BUSOGFDG": 8,
+   "BUSOGFLT": 8,
+   "BUSOGFPV": 8,
+   "BUSOGFWD": 8,
+   "NMFLAT": 8,
+   "NMLIGHT": 0,
+   "RESHIDG": 8,
+   "RESHIPV": 0,
+   "RESHIWD": 8,
+   "RESHIWR": 8,
+   "RESLODG": 8,
+   "RESLOPV": 0,
+   "RESLOWD": 8,
+   "RESLOWR": 8
+  },
+  "1": {
+   "BUSHIDG": 0,
+   "BUSHILF": 0,
+   "BUSHIPV": 0,
+   "BUSHIWD": 0,
+   "BUSIDRRQ": 0,
+   "BUSLODG": 0,
+   "BUSLOLF": 0,
+   "BUSLOPV": 0,
+   "BUSLOWD": 0,
+   "BUSMEDDG": 0,
+   "BUSMEDLF": 0,
+   "BUSMEDPV": 0,
+   "BUSMEDWD": 0,
+   "BUSNODDG": 0,
+   "BUSNODEM": 0,
+   "BUSNODPV": 8,
+   "BUSNODWD": 0,
+   "BUSOGFDG": 0,
+   "BUSOGFLT": 0,
+   "BUSOGFPV": 0,
+   "BUSOGFWD": 0,
+   "NMFLAT": 0,
+   "NMLIGHT": 8,
+   "RESHIDG": 0,
+   "RESHIPV": 8,
+   "RESHIWD": 0,
+   "RESHIWR": 0,
+   "RESLODG": 0,
+   "RESLOPV": 8,
+   "RESLOWD": 0,
+   "RESLOWR": 0
+  }
+ },
+ "pv_growth": {
+  "DG": {
+   "2013": 9,
+   "2014": 16,
+   "2015": 17,
+   "2016": 20,
+   "2017": 22,
+   "2018": 23,
+   "2019": 23,
+   "2020": 27,
+   "2021": 34,
+   "2022": 54,
+   "2023": 94,
+   "2024": 290,
+   "2025": 3629,
+   "2026": 15834
+  },
+  "PV": {
+   "2013": 3375,
+   "2014": 5144,
+   "2015": 7315,
+   "2016": 12055,
+   "2017": 17587,
+   "2018": 23708,
+   "2019": 35180,
+   "2020": 55056,
+   "2021": 85604,
+   "2022": 130619,
+   "2023": 171088,
+   "2024": 193377,
+   "2025": 207538,
+   "2026": 218293
+  },
+  "WD": {
+   "2013": 350,
+   "2014": 392,
+   "2015": 397,
+   "2016": 399,
+   "2017": 388,
+   "2018": 390,
+   "2019": 383,
+   "2020": 376,
+   "2021": 374,
+   "2022": 370,
+   "2023": 362,
+   "2024": 364,
+   "2025": 363,
+   "2026": 361
+  },
+  "none": {
+   "2013": 6857535,
+   "2014": 7016366,
+   "2015": 7127895,
+   "2016": 7242772,
+   "2017": 7354265,
+   "2018": 7465624,
+   "2019": 7579998,
+   "2020": 7714124,
+   "2021": 7836187,
+   "2022": 7913717,
+   "2023": 8018449,
+   "2024": 8251654,
+   "2025": 8349568,
+   "2026": 8436589
+  }
+ }
+}

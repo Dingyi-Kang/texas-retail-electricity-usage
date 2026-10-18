@@ -1,0 +1,33 @@
+{
+ "run_id": "20261014-093853_T1_chronos2_zero_blend",
+ "experiment": "T1_chronos2_zero_blend",
+ "phase": "validation",
+ "hypothesis": "Zero-shot Chronos-2 per series (context to T-2 with unpublished days masked, zone load as past covariate, forecast temperature + calendar as known covariates) is competitive with W4 (7.83%).",
+ "config": {
+  "ctx": 2048,
+  "covariates": [
+   "load (past)",
+   "temp blend",
+   "hour",
+   "dow",
+   "hol"
+  ]
+ },
+ "status": "ok",
+ "git": "6f4ebea",
+ "seconds": 2671.6,
+ "metrics": {
+  "n": 842112,
+  "wape": 8.250765697133218,
+  "bias_pct": -1.2665985522094902,
+  "portfolio_mape": 6.379216350589516,
+  "portfolio_mae_mwh": 1285.6802374694348,
+  "wape_BUSHILF": 2.2557767240926943,
+  "wape_BUSLOLF": 7.244189313145863,
+  "wape_BUSMEDLF": 4.092592360106386,
+  "wape_BUSNODEM": 5.049905810992155,
+  "wape_RESHIWR": 11.950971811411266,
+  "wape_RESLOWR": 9.379263924102778,
+  "wape_extreme_days": 12.53430336902291
+ }
+}

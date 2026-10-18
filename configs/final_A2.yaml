@@ -1,0 +1,10 @@
+# Locked 2026-10-14 before the A2 holdout (issues 2024-01..2026-05) was opened.
+# Rule (P-A1): lowest validation MAPE (both sectors, horizons 0-2) among forecast runs; simpler if not
+# clearly better. M6 (5.48%) vs M4 (5.70%) / M3 (5.75%): M6 only combines M3's residential window and
+# M4's commercial window (same model class), chosen after seeing M3/M4 -> mildly optimistic; M3 and M4
+# are run on holdout too so the cost of that choice is visible.
+final_candidate: M6_dd_sector_windows_clim
+holdout_set: [M0_seasonal_naive, M1_yoy_customer_growth, M3_dd_regression_5y_clim, M4_dd_regression_3y_clim,
+              M6_dd_sector_windows_clim, MX_dd_regression_actual]
+reference_only: [MX_dd_regression_actual]   # actual degree days = backcast, not a forecast
+notes: "EIA file holds revised values, not the vintages available at each issue (limitation)."
